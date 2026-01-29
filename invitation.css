@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f6f3ea; /* cream-white */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Georgia", serif;
+}
+
+.invitation-wrapper {
+    padding: 20px;
+}
+
+.invitation-card {
+    background-color: #f6f3ea;
+    color: maroon;
+    padding: 70px 90px;
+    text-align: center;
+    border: 3px solid maroon;
+    max-width: 650px;
+}
+
+.intro {
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 2.8em;
+    margin: 20px 0;
+}
+
+.line {
+    width: 60%;
+    height: 2px;
+    background-color: maroon;
+    margin: 30px auto;
+}
+
+.detail {
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+.detail span {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
